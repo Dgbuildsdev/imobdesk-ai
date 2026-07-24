@@ -1,4 +1,5 @@
-﻿ImobDesk AI
+�
+� ImobDesk AI
 Plataforma SaaS Inteligente para Despachantes Imobiliários
 Status
 Backend
@@ -12,12 +13,12 @@ A plataforma centraliza clientes, imóveis, processos, documentos, tarefas, fina
 inteligência artificial em um único ambiente.
 O objetivo é transformar atividades burocráticas e repetitivas em fluxos digitais automatizados,
 proporcionando:
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
 Mais produtividade
 Menos erros operacionais
 Controle total dos processos
@@ -28,28 +29,28 @@ Gestão multiempresa (SaaS)
 Ao final do desenvolvimento, o ImobDesk AI será uma plataforma completa contendo:
 Gestão de Clientes
 Controle completo de clientes:
-•
-•
-•
+• 
+• 
+• 
 Cadastro de pessoas físicas e jurídicas
 CPF/CNPJ
 Telefones
 1
-•
-•
-•
+• 
+• 
+• 
 E-mails
 Histórico de atendimento
 Relacionamento com processos imobiliários
 🏠 Gestão de Imóveis
 Módulo para controle dos imóveis:
-•
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
+• 
 Cadastro de propriedades
 Tipo de imóvel
 Endereço completo
@@ -59,13 +60,13 @@ Organização por empresa
 Histórico relacionado aos processos
 📂 Gestão de Processos Imobiliários
 Sistema completo de workflow:
-•
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
+• 
 Criação de processos
 Tipos de processos
 Etapas personalizadas
@@ -74,12 +75,12 @@ Responsáveis
 Status
 Histórico de alterações
 Exemplos:
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
 Compra e venda
 Transferência de propriedade
 Escrituras
@@ -88,27 +89,27 @@ Financiamentos
 Documentações
 📑 Gestão Documental
 Controle inteligente de documentos:
-•
-•
-•
-•
+• 
+• 
+• 
+• 
 Upload de arquivos
 Organização por processo
 Controle de documentos pendentes
 Histórico
 2
-•
-•
+• 
+• 
 Validação documental
 Alertas de vencimentos
 ✅ Gestão de Tarefas
 Sistema operacional para equipes:
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
 Criação de tarefas
 Responsáveis
 Prioridades
@@ -117,11 +118,11 @@ Status
 Notificações
 💰 Módulo Financeiro
 Gestão financeira integrada:
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Controle de receitas
 Controle de despesas
 Relatórios financeiros
@@ -129,12 +130,12 @@ Indicadores
 Dashboard financeiro
 📊 Dashboard Administrativo
 Painel inteligente com:
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
 Indicadores gerais
 Processos em andamento
 Clientes cadastrados
@@ -143,33 +144,33 @@ Produtividade
 Métricas operacionais
 🤖 Inteligência Artificial (AI)
 Integração com IA para:
-•
-•
-•
+• 
+• 
+• 
 Atendimento automático
 Assistente interno
 Auxílio na criação de documentos
 3
-•
-•
-•
+• 
+• 
+• 
 Análise de informações
 Sugestões inteligentes
 Automação de tarefas
 Tecnologias previstas:
-•
-•
-•
+• 
+• 
+• 
 Google Gemini API
 AI SDK
 Agentes inteligentes
 📅 Calendário e Agenda
 Sistema integrado de agenda:
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Compromissos
 Prazos de processos
 Reuniões
@@ -177,10 +178,10 @@ Alertas
 Integração futura com Google Calendar
 📱 WhatsApp e Comunicação
 Integração para:
-•
-•
-•
-•
+• 
+• 
+• 
+• 
 Atendimento ao cliente
 Notificações automáticas
 Avisos de andamento
@@ -188,34 +189,34 @@ Comunicação comercial
 🏢 Arquitetura Multiempresa (SaaS)
 O sistema será preparado para múltiplas organizações.
 Cada empresa terá:
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Usuários próprios
 Clientes próprios
 Imóveis próprios
 Processos próprios
 Dados isolados
 Arquitetura baseada em:
-•
-•
+• 
+• 
 Organization ID
 Controle de acesso
 4
-•
-•
+• 
+• 
 JWT
 RBAC
 🔐 Segurança
 Implementações:
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
 Autenticação JWT
 Controle de permissões
 Guards do NestJS
@@ -227,12 +228,12 @@ Backend
 NestJS
 Framework principal da API.
 Responsável por:
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
 Estrutura modular
 Controllers
 Services
@@ -243,9 +244,9 @@ Node.js
 Ambiente de execução.
 TypeScript
 Linguagem principal garantindo:
-•
-•
-•
+• 
+• 
+• 
 Segurança de tipos
 Melhor manutenção
 Código escalável
@@ -254,11 +255,11 @@ Banco de Dados
 PostgreSQL
 Banco relacional principal.
 Utilizado para:
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Dados dos clientes
 Processos
 Documentos
@@ -266,10 +267,10 @@ Financeiro
 Usuários
 Prisma ORM
 Responsável por:
-•
-•
-•
-•
+• 
+• 
+• 
+• 
 Modelagem do banco
 Migrations
 Queries
@@ -278,9 +279,9 @@ Frontend (Planejado)
 Aplicação web moderna utilizando:
 Next.js
 Framework React para:
-•
-•
-•
+• 
+• 
+• 
 Dashboard
 Área administrativa
 Interface SaaS
@@ -288,27 +289,27 @@ React
 Construção da interface.
 Tailwind CSS
 Sistema visual:
-•
-•
+• 
+• 
 Responsivo
 Moderno
 6
 Componentizado
-•
+• 
 Component Libraries
 Possíveis integrações:
-•
-•
-•
+• 
+• 
+• 
 Shadcn UI
 Radix UI
 Lucide Icons
 Inteligência Artificial
 Tecnologias:
-•
-•
-•
-•
+• 
+• 
+• 
+• 
 Google Gemini
 AI SDK
 Modelos generativos
@@ -317,29 +318,29 @@ Infraestrutura
 Ferramentas:
 Docker
 Utilizado para:
-•
-•
-•
+• 
+• 
+• 
 Banco PostgreSQL
 Ambientes isolados
 Desenvolvimento local
 Git + GitHub
 Controle de versão:
-•
-•
-•
+• 
+• 
+• 
 Histórico do projeto
 Backup
 Trabalho colaborativo
 CI/CD (Planejado)
 Automação:
-•
-•
+• 
+• 
 Testes
 Deploy
 7
 Validação de código
-•
+• 
 Qualidade de Código
 Ferramentas utilizadas:
 ESLint
@@ -373,20 +374,20 @@ src/
 └── common
 Status Atual do Desenvolvimento
 ✅ Concluído
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
 Estrutura inicial NestJS
 Configuração Prisma
 PostgreSQL integrado
@@ -403,16 +404,16 @@ Configuração Prettier
 Projeto versionado com Git
 🚧 Em Desenvolvimento
 Próximas etapas:
-•
-•
-•
-•
-•
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
 Tipos de processos
 Etapas dos processos
 Documentos
@@ -429,33 +430,33 @@ Fase 1 - Fundação
 ✅ Banco de dados
 9
 ✅ Autenticação
-✅ Multiempresa
+✅ Multiempresa 
 Fase 2 - Operação Imobiliária
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Processos completos
 Documentos
 Workflow
 Tarefas
 Notificações
 Fase 3 - Inteligência
-•
-•
-•
-•
+• 
+• 
+• 
+• 
 Assistente IA
 Automações
 Análise inteligente
 Sugestões automáticas
 Fase 4 - Plataforma SaaS Completa
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Dashboard premium
 Planos e assinaturas
 Pagamentos
@@ -467,17 +468,17 @@ Criar a principal plataforma inteligente para profissionais imobiliários, unind
 📄 Documentação
 🤖 Inteligência Artificial
 📊 Dados estratégicos
-📱 Comunicação automatizada
+📱 Comunicação automatizada 
 Tudo em um único sistema.
 10
-
-‍💻 Desenvolvimento
+�
+�‍💻 Desenvolvimento
 Projeto desenvolvido com foco em:
-•
-•
-•
-•
-•
+• 
+• 
+• 
+• 
+• 
 Arquitetura escalável
 Código limpo
 Segurança
@@ -486,4 +487,3 @@ Preparação para crescimento SaaS
 📄 Licença
 Projeto privado em desenvolvimento.
 Todos os direitos reservados.
-

@@ -1,0 +1,30 @@
+import { Sidebar } from "./sidebar";
+import { Header } from "./header";
+
+interface AppShellProps {
+  children: React.ReactNode;
+}
+
+export function AppShell({
+  children,
+}: AppShellProps) {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <div className="flex min-h-screen">
+
+        <Sidebar />
+
+        <div className="flex flex-1 flex-col">
+
+          <Header />
+
+          <main className="flex-1 p-6">
+            {children}
+          </main>
+
+        </div>
+
+      </div>
+    </div>
+  );
+}

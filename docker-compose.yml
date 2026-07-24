@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: imobdesk-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: imobdesk_ai
+    ports:
+      - "5432:5432"
+    volumes:
+      - imobdesk_pgdata:/var/lib/postgresql/data
+
+volumes:
+  imobdesk_pgdata:

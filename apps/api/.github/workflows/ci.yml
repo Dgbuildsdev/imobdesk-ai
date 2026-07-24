@@ -1,0 +1,64 @@
+name: ImobDesk AI CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+  pull_request:
+    branches:
+      - main
+      - develop
+
+
+jobs:
+  build-and-test:
+
+    name: Build, Lint and Test API
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+
+      - name: Enable Corepack
+        run: corepack enable
+
+
+      - name: Setup pnpm
+        run: corepack prepare pnpm@10.18.3 --activate
+
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+
+      - name: Generate Prisma Client
+        run: pnpm prisma generate
+
+
+      - name: Validate Prisma Schema
+        run: pnpm prisma validate
+
+
+      - name: Run ESLint
+        run: pnpm lint
+
+
+      - name: Build NestJS API
+        run: pnpm build
+
+
+      - name: Run Tests
+        run: pnpm test

@@ -13,11 +13,18 @@ on:
 
 
 jobs:
+
   build-and-test:
 
     name: Build, Lint and Test API
 
     runs-on: ubuntu-latest
+
+
+    defaults:
+      run:
+        working-directory: apps/api
+
 
     steps:
 
@@ -29,10 +36,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
 
 
-      - name: Enable Corepack
+      - name: Enable pnpm
         run: corepack enable
 
 
@@ -41,6 +47,7 @@ jobs:
 
 
       - name: Install dependencies
+        working-directory: .
         run: pnpm install --frozen-lockfile
 
 

@@ -1,4 +1,4 @@
-\# ImobDesk AI
+\# 🚀 ImobDesk AI
 
 
 
@@ -22,25 +22,35 @@
 
 
 
-\## Sobre o Projeto
+\# 📌 Sobre o Projeto
 
 
 
-O \*\*ImobDesk AI\*\* é uma plataforma SaaS desenvolvida para modernizar a operação de despachantes imobiliários, imobiliárias e profissionais envolvidos em documentação imobiliária.
+O \*\*ImobDesk AI\*\* é uma plataforma SaaS desenvolvida para modernizar a operação de:
 
 
 
-A plataforma centraliza:
+\- Despachantes imobiliários
+
+\- Imobiliárias
+
+\- Escritórios de documentação imobiliária
+
+\- Profissionais do mercado imobiliário
 
 
 
-\- Clientes
+A plataforma centraliza toda a operação em um único ambiente:
 
-\- Imóveis
+
+
+\- Gestão de clientes
+
+\- Gestão de imóveis
 
 \- Processos imobiliários
 
-\- Documentos
+\- Documentação
 
 \- Tarefas
 
@@ -52,11 +62,7 @@ A plataforma centraliza:
 
 
 
-em um único ambiente.
-
-
-
-O objetivo é transformar processos burocráticos em fluxos digitais inteligentes, aumentando produtividade, organização e controle operacional.
+O objetivo é substituir controles manuais e planilhas por uma plataforma inteligente, segura e escalável.
 
 
 
@@ -64,15 +70,15 @@ O objetivo é transformar processos burocráticos em fluxos digitais inteligente
 
 
 
-\# Visão Geral da Plataforma
+\# 🎯 Visão do Produto
 
 
 
-Fluxo principal:
+O ImobDesk AI será uma plataforma completa para acompanhar todo ciclo imobiliário:
 
 
 
-```
+```text
 
 Cliente
 
@@ -86,7 +92,7 @@ Atendimento
 
 &#x20;  v
 
-Imóvel
+Cadastro do Imóvel
 
 &#x20;  |
 
@@ -104,13 +110,19 @@ Documentação
 
 &#x20;  v
 
-Contrato
+Aprovação
 
 &#x20;  |
 
 &#x20;  v
 
 Financeiro
+
+&#x20;  |
+
+&#x20;  v
+
+Conclusão
 
 ```
 
@@ -120,19 +132,19 @@ Financeiro
 
 
 
-\# Funcionalidades
+\# 🏢 Funcionalidades
 
 
 
-\## Clientes
+\## 👥 Gestão de Clientes
 
 
 
-Gestão completa de clientes:
+Controle completo de clientes:
 
 
 
-\- Cadastro de pessoas físicas e jurídicas
+\- Pessoa física e jurídica
 
 \- CPF/CNPJ
 
@@ -140,9 +152,9 @@ Gestão completa de clientes:
 
 \- E-mails
 
-\- Histórico de relacionamento
+\- Histórico de atendimento
 
-\- Associação com processos
+\- Relacionamento com processos
 
 
 
@@ -150,15 +162,13 @@ Gestão completa de clientes:
 
 
 
-\## Imóveis
+\# 🏠 Gestão de Imóveis
 
 
 
-Controle de propriedades:
+Cadastro e controle de propriedades:
 
 
-
-\- Cadastro de imóveis
 
 \- Tipo de imóvel
 
@@ -168,7 +178,9 @@ Controle de propriedades:
 
 \- Matrícula
 
-\- Histórico vinculado aos processos
+\- Histórico
+
+\- Processos vinculados
 
 
 
@@ -176,27 +188,25 @@ Controle de propriedades:
 
 
 
-\## Processos Imobiliários
+\# 📂 Processos Imobiliários
 
 
 
-Sistema de workflow:
+Sistema de workflow completo:
 
 
 
 \- Criação de processos
 
-\- Tipos de processos
+\- Tipos personalizados
 
-\- Etapas personalizadas
-
-\- Controle de andamento
+\- Etapas configuráveis
 
 \- Responsáveis
 
 \- Status
 
-\- Histórico
+\- Histórico de alterações
 
 
 
@@ -206,7 +216,7 @@ Exemplos:
 
 \- Compra e venda
 
-\- Transferência de propriedade
+\- Transferência
 
 \- Escrituras
 
@@ -220,11 +230,11 @@ Exemplos:
 
 
 
-\## Documentos
+\# 📄 Gestão Documental
 
 
 
-Gestão documental:
+Controle inteligente de documentos:
 
 
 
@@ -232,11 +242,13 @@ Gestão documental:
 
 \- Organização por processo
 
-\- Controle de documentos pendentes
+\- Documentos pendentes
 
 \- Validação documental
 
 \- Histórico
+
+\- Controle de prazos
 
 
 
@@ -244,11 +256,11 @@ Gestão documental:
 
 
 
-\## Tarefas
+\# ✅ Gestão de Tarefas
 
 
 
-Gestão operacional:
+Organização operacional:
 
 
 
@@ -270,11 +282,11 @@ Gestão operacional:
 
 
 
-\## Financeiro
+\# 💰 Financeiro
 
 
 
-Estrutura preparada para:
+Módulo financeiro:
 
 
 
@@ -294,11 +306,11 @@ Estrutura preparada para:
 
 
 
-\# Inteligência Artificial
+\# 🤖 Inteligência Artificial
 
 
 
-O ImobDesk AI terá recursos inteligentes:
+O ImobDesk AI contará com recursos inteligentes:
 
 
 
@@ -306,11 +318,11 @@ O ImobDesk AI terá recursos inteligentes:
 
 \- Assistente interno
 
-\- Sugestão de ações
+\- Sugestões inteligentes
 
-\- Análise de documentos
+\- Análise documental
 
-\- Automação de tarefas
+\- Automação de processos
 
 
 
@@ -318,7 +330,7 @@ Tecnologias:
 
 
 
-\- Google Gemini
+\- Google Gemini API
 
 \- AI SDK
 
@@ -330,7 +342,7 @@ Tecnologias:
 
 
 
-\# Arquitetura SaaS Multiempresa
+\# 🏢 Arquitetura SaaS Multiempresa
 
 
 
@@ -338,7 +350,7 @@ O sistema foi projetado para múltiplas organizações.
 
 
 
-Cada empresa possui:
+Cada empresa terá:
 
 
 
@@ -354,13 +366,13 @@ Cada empresa possui:
 
 
 
-Modelo baseado em:
+Segurança baseada em:
 
 
 
 \- Organization ID
 
-\- JWT
+\- JWT Authentication
 
 \- RBAC
 
@@ -372,7 +384,7 @@ Modelo baseado em:
 
 
 
-\# Tecnologias
+\# 🛠️ Stack Tecnológica
 
 
 
@@ -390,7 +402,9 @@ Modelo baseado em:
 
 \- PostgreSQL
 
-\- JWT Authentication
+\- JWT
+
+\- Jest
 
 
 
@@ -410,6 +424,10 @@ Modelo baseado em:
 
 \- Tailwind CSS
 
+\- Shadcn UI
+
+\- Radix UI
+
 
 
 \---
@@ -424,31 +442,13 @@ Modelo baseado em:
 
 \- Docker Compose
 
-\- GitHub Actions
-
 \- pnpm Workspace
 
+\- Git
 
+\- GitHub Actions
 
-\---
-
-
-
-\## Qualidade
-
-
-
-Ferramentas:
-
-
-
-\- ESLint
-
-\- Prettier
-
-\- Jest
-
-\- TypeScript Strict Mode
+\- CI/CD
 
 
 
@@ -456,7 +456,7 @@ Ferramentas:
 
 
 
-\# Estrutura Atual
+\# 🧱 Arquitetura do Projeto
 
 
 
@@ -468,53 +468,65 @@ imobdesk-ai
 
 ├── apps
 
-│
+
 
 │   ├── api
 
-│   │   ├── auth
-
-│   │   ├── users
-
-│   │   ├── organizations
-
-│   │   ├── clients
-
-│   │   ├── properties
-
-│   │   ├── processes
-
-│   │   ├── documents
-
-│   │   ├── tasks
-
-│   │   ├── finance
-
-│   │   ├── dashboard
-
-│   │   ├── whatsapp
-
-│   │   ├── ai
-
-│   │   └── prisma
-
 │   │
 
-│   └── web
+│   ├── auth
+
+│   ├── users
+
+│   ├── organizations
+
+│   ├── clients
+
+│   ├── properties
+
+│   ├── processes
+
+│   ├── documents
+
+│   ├── tasks
+
+│   ├── finance
+
+│   ├── dashboard
+
+│   ├── whatsapp
+
+│   ├── ai
+
+│   └── prisma
 
 │
+
+│
+
+└── web
+
+
 
 ├── packages
 
+
+
 ├── docker
+
+
 
 ├── docs
 
-│
+
 
 ├── docker-compose.yml
 
+
+
 ├── pnpm-workspace.yaml
+
+
 
 └── README.md
 
@@ -526,7 +538,7 @@ imobdesk-ai
 
 
 
-\# Status Atual
+\# ✅ Status Atual
 
 
 
@@ -534,7 +546,9 @@ imobdesk-ai
 
 
 
-\- Estrutura NestJS
+\- Estrutura inicial NestJS
+
+\- Arquitetura modular
 
 \- Prisma configurado
 
@@ -542,7 +556,7 @@ imobdesk-ai
 
 \- Autenticação JWT
 
-\- Multiempresa
+\- Sistema multiempresa
 
 \- Usuários
 
@@ -552,7 +566,7 @@ imobdesk-ai
 
 \- Processos
 
-\- Migrations
+\- Migrations Prisma
 
 \- ESLint
 
@@ -566,35 +580,11 @@ imobdesk-ai
 
 
 
-\# Roadmap
+\# 🚧 Em Desenvolvimento
 
 
 
-\## Fase 1 - Fundação SaaS
-
-
-
-Concluído:
-
-
-
-\- Backend
-
-\- Banco de dados
-
-\- Autenticação
-
-\- Estrutura multiempresa
-
-
-
-
-
-\## Fase 2 - Operação Imobiliária
-
-
-
-Em desenvolvimento:
+Próximas entregas:
 
 
 
@@ -608,15 +598,59 @@ Em desenvolvimento:
 
 \- Dashboard
 
+\- IA integrada
+
+\- WhatsApp
+
+\- Frontend SaaS
+
+\- Controle avançado de permissões
+
+
+
+\---
+
+
+
+\# 🗺️ Roadmap
+
+
+
+\## Fase 1 - Fundação SaaS ✅
+
+
+
+\- Backend
+
+\- Banco de dados
+
+\- Autenticação
+
+\- Multiempresa
+
+
+
+
+
+\## Fase 2 - Operação Imobiliária
+
+
+
+\- Processos completos
+
+\- Documentos
+
+\- Workflow
+
+\- Tarefas
+
+\- Notificações
+
 
 
 
 
 \## Fase 3 - Inteligência Artificial
-
-
-
-Planejado:
 
 
 
@@ -632,11 +666,7 @@ Planejado:
 
 
 
-\## Fase 4 - Plataforma SaaS
-
-
-
-Planejado:
+\## Fase 4 - Plataforma SaaS Completa
 
 
 
@@ -656,11 +686,11 @@ Planejado:
 
 
 
-\# Desenvolvimento
+\# 💻 Desenvolvimento Local
 
 
 
-Instalar:
+Instalar dependências:
 
 
 
@@ -712,7 +742,7 @@ pnpm --filter web dev
 
 
 
-\# Licença
+\# 🔒 Licença
 
 
 
@@ -723,4 +753,26 @@ Projeto privado em desenvolvimento.
 Todos os direitos reservados.
 
 
+
+\---
+
+
+
+\# 👨‍💻 Desenvolvimento
+
+
+
+Projeto desenvolvido com foco em:
+
+
+
+\- Arquitetura escalável
+
+\- Código limpo
+
+\- Segurança
+
+\- Boas práticas
+
+\- Preparação para crescimento SaaS
 

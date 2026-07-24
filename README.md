@@ -485,5 +485,5 @@ Boas práticas
 Preparação para crescimento SaaS
 📄 Licença
 Projeto privado em desenvolvimento.
-Todos os direitos reservados
+Todos os direitos reservados.
 
